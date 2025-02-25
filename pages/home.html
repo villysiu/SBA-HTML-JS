@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../css/home.css" />
+
+  <style>
+    #slogan {
+      font-size: 5rem;
+      padding-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div id="navbar">
+      <div id="logo">
+        <img src="../img/iDonut_logo.png" alt="logp" style="width: 100%" />
+      </div>
+      <div class="navbar_buttons">
+        <a href="login.html" id="login_button">Login</a>
+        <a href="register.html" id="signup_button">Signup</a>
+
+      </div>
+    </div>
+
+
+    <div id="slogan">
+      <span>Donut worry</span>
+      <span>Be happy</span>
+    </div>
+
+
+    <<h3 style="margin-top: 2rem; text-align: center;">
+      What kind of donut are you?
+    </h3>
+
+    <div id="donut_list" style="margin-top: 1rem"></div>
+
+
+
+  </div>
+
+  <script type="module" src="../js/loginBtn.js"></script>
+  <script type="module" src="../js/signupBtn.js"></script>
+  <script type="module" src="../js/sloganGlow.js"></script>
+<script type="module" src="../js/donuts.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.input_form_container {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.input_form_backdrop {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  border: black 1px solid;
+  opacity: 0.5;
+  border-radius: 0.75rem;
+
+}
+
+
+.input_form {
+  text-align: center;
+  padding: 1rem;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+}
+
+.input_table {
+  margin-top: 2rem;
+  text-align: left;
+}
+.input_row {
+  height: 2.5rem;
+}
+.input_box{
+  height: 1.5rem;
+}
+
+.error-message {
+  display: none;
+}

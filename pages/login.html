@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../css/input.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+<body>
+
+<div id="main">
+  <div id="navbar">
+    <div id="logo">
+      <img src="../img/iDonut_logo.png" alt="logp" style="width: 100%" />
+    </div>
+    <div class="navbar_buttons">
+      <a href="login.html" id="login_button">Login</a>
+      <a href="register.html" id="signup_button">Signup</a>
+
+    </div>
+  </div>
+
+  <div class="input_form_container">
+    <div class="input_form_backdrop"></div>
+    <div class="input_form">
+      <h3>Login</h3>
+      <form action="home.html" id="login_form">
+        <table class="input_table">
+          <tr class="input_row">
+            <td>email</td>
+            <td>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                  title="Enter a valid email"
+                  class="input_box"
+                />
+            </td>
+          </tr>
+          <tr class="input_row">
+            <td>password</td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                placeholder="password"
+                required
+                pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,20}"
+                title="Password must be 8-20 characters long, include at least one letter and one number"
+                class="input_box"
+              />
+            </td>
+          </tr>
+        </table>
+        <button>Login</button>
+      </form>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+<script type="module" src="../js/loginBtn.js"></script>
+<script type="module" src="../js/signupBtn.js"></script>
+
+</body>
+</html>
