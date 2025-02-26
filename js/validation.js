@@ -3,6 +3,15 @@ const emailEl = document.getElementById("email")
 const passwordEl = document.getElementById("password")
 const nameEl = document.getElementById("name")
 
+const arr = document.querySelectorAll(".error-message")
+arr.forEach(a=>{
+
+    a.style.color="red";
+    a.style.fontSize="0.5rem";
+
+})
+
+
 const handleSubmit = e =>{
   e.preventDefault();
 
